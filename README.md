@@ -48,6 +48,7 @@ A closure is an inner function that has access to the outer (enclosing) function
  4: Explicit binding --  We explicitly define 'this'  by using .call and .apply
 
 5. Why do we need super() in an extended class?
+Use the super() function to call the constructor of the parent class and access functions on an object's parent class.
 
 
 ## Project Set up
