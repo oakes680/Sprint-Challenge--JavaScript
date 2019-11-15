@@ -100,10 +100,10 @@ console.log(contactInfo);
 // var unisWithUni = universities.filter(el => el.includes('Uni'));
 // console.log(unisWithUni)
 
-var dd = graduates.filter(function(dd) {
- return dd.university.includes('Uni')
+var unisWithUni = graduates.filter(function(el) {
+ return el.university.includes('Uni')
  })
-console.log(dd)
+console.log(unisWithUni)
 
 
 // ==== ADVANCED Array Methods ====
