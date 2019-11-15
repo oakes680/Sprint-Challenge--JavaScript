@@ -97,8 +97,13 @@ console.log(contactInfo);
 
 //console.log(unisWithUni);
 
-var el = universities.filter(el => el.includes('Uni'));
-console.log(el)
+var unisWithUni = universities.filter(el => el.includes('Uni'));
+console.log(unisWithUni)
+
+// var dd = graduates.filter(function(dd) {
+//   return dd.university includes('Uni')
+// })
+// console.log(dd)
 
 
 // ==== ADVANCED Array Methods ====
